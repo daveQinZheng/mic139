@@ -1,0 +1,27 @@
+{
+    "name": "radioxx",
+    "description": "The radio services",
+    "files": [
+        "enums.d.ts",
+        "radio.cpp",
+        "radio.ts"
+    ],
+    "icon": "https://makecode.trafficmanager.cn/blob/e211d6ebe57a3f191ef69cdf195674da83d94980/static/packages/radio/icon.png",
+    "public": true,
+    "dependencies": {
+        "core": "*"
+    },
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "targetVersions": {
+        "target": "1.2.13"
+    },
+    "installedVersion": "embed:radio"
+}
